@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Fooderaa/static/css/main.8f841232.css",
+    "main.js": "/Fooderaa/static/js/main.4df0394a.js",
+    "static/media/new img.png": "/Fooderaa/static/media/new img.b810024430d376b6bd6d.png",
+    "static/media/pride img.png": "/Fooderaa/static/media/pride img.91adf8dc0779a423e014.png",
+    "static/media/orderRaspberry.jpg": "/Fooderaa/static/media/orderRaspberry.0df4d0d0dda2d436bffc.jpg",
+    "static/media/1.jpg": "/Fooderaa/static/media/1.960ff282036e3c4e63eb.jpg",
+    "static/media/2.jpg": "/Fooderaa/static/media/2.f6e01ff2a6ae714f244b.jpg",
+    "static/media/orderRainbow.jpg": "/Fooderaa/static/media/orderRainbow.1defe43a880022701c8d.jpg",
+    "static/media/orderVegetarian.jpg": "/Fooderaa/static/media/orderVegetarian.a567a9db1482b99c0fab.jpg",
+    "static/media/homeBg.webp": "/Fooderaa/static/media/homeBg.bba8f0dbc98d0b80ba7c.webp",
+    "index.html": "/Fooderaa/index.html",
+    "main.8f841232.css.map": "/Fooderaa/static/css/main.8f841232.css.map",
+    "main.4df0394a.js.map": "/Fooderaa/static/js/main.4df0394a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f841232.css",
+    "static/js/main.4df0394a.js"
+  ]
+}
