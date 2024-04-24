@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth!important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Navbar*/
+.navbar{
+  position: fixed!important;
+  width: 100%;
+  top: -2px!important;
+  transition: top 0.3s;
+  background-color: #fff;
+}
+/* .navbar::-webkit-scrollbar{
+  background-color: #fff;
+
+} */
+.btn-Nav{
+  background-color: #ab3550!important;
+  border: 3px solid!important;
+  border-radius: 0px!important;
+}
+.btn-Nav:hover{
+  background-color: #fff!important;
+  color:#ab3550!important;;
+}
+.fw-bolder {
+  color: #ab3550!important;
+  letter-spacing: .2rem;
+  /* border:3px solid #ab3550;
+  padding: 1rem; */
+}
+.nav-link{
+  color: #ab3550!important;
+}
+/*Home Style*/
+.order-btn,.prid-btn , .new-btn , .price button , .btn-modal1 button , .btn-faq , .btn-form{
+  background-color: #ab3550!important;
+  color: white!important;
+  border-radius: 0px!important;
+  border: 3px solid #ab3550!important;
+  font-weight: bold !important;
+}
+.order-btn:hover ,.prid-btn:hover,.new-btn:hover
+ , .price button:hover 
+ , .btn-modal1 button:hover
+ ,.btn-faq:hover
+ ,.btn-form:hover{
+  color: #ab3550!important;
+  background-color: #fff!important;
+
+}
+.learn-btn {
+  color: white!important;
+  color: black!important;
+  border: 3px solid white !important;
+  border-radius: 0px!important;
+  font-weight: bold !important;
+}
+.learn-btn:hover{
+  border: 3px solid #ab3550!important;
+  color: #ab3550;
+}
+.home .col-lg-6 h1 , .pride .col-lg-6 h2{
+  font-size: 55px!important;
+  width: 80%;
+  /* line-height: 60px; */
+  font-weight: bold!important;
+  color: #5d2e39;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.col-lg-6 p{
+  color: #333;
+  margin: 15px 0px;
+  margin-bottom: 2rem;
+  width: 65%;
+}
+/*About Style*/
+.about{
+  background-color: #ab3550;
+  color: #fff;
+}
+.col-lg-3 h5 {
+  letter-spacing: .2rem;
+  margin-top: .8rem;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+/*Prid Style*/
+.prid-btn {
+  background-color: #ab3550;
+  padding: .5rem 1.2rem;
+  color: aliceblue;
+}
+.pride .col-lg-6 h2 , .new .col-lg-6 h1{
+  font-size: 35px!important;
+  width: 80%;
+  max-width: 100%!important;
+  color: #5d2e39;
+};
+.new .col-lg-6 h1{
+  margin-bottom: 1.4rem;
+  width: 85%;
+}
+.footer{
+  display: flex;
+}
+.contact h6:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.links i{
+  cursor: pointer;
+}
+/*Responsive Design*/
+@media (max-width: 768px) {
+  /*home*/
+  .home h1 {
+    width: 85% !important;
+  }
+  .home p {
+    width: 90%;
+  }
+  /*pride*/
+  .pride h2 {
+    width: 100% !important;
+  } 
+  .pride p {
+    width: 80%;
+  }
+  /*new*/
+  .new h1 {
+    width: 100% !important;
+  }
+  .new p {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 430px) {
+  /*home*/
+  .home h1 {
+    width: 85% !important;
+  }
+  .home p {
+    width: 95%;
+  }
+  /*pride*/
+  .pride h2 {
+    width: 100% !important;
+  } 
+  .pride p {
+    width: 80%;
+  }
+  /*new*/
+  .new h1 {
+    width: 100% !important;
+  }
+  .new p {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 414px) {
+  /*home*/
+  .home h1 {
+    width: 85% !important;
+  }
+  .home p {
+    width: 90%;
+  }
+  /*pride*/
+  .pride h2 {
+    width: 100% !important;
+  } 
+  .pride p {
+    width: 80%;
+  }
+  /*new*/
+  .new h1 {
+    width: 100% !important;
+  }
+  .new p {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  /*home*/
+  .home h1 {
+    width: 85% !important;
+  }
+  .home p {
+    width: 90%;
+  }
+  /*pride*/
+  .pride h2 {
+    width: 100% !important;
+  } 
+  .pride p {
+    width: 80%;
+  }
+  /*new*/
+  .new h1 {
+    width: 100% !important;
+  }
+  .new p {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 360px) {
+  /*home*/
+  .home h1 {
+    width: 85% !important;
+  }
+  .home p {
+    width: 90%;
+  }
+  /*pride*/
+  .pride h2 {
+    width: 100% !important;
+  } 
+  .pride p {
+    width: 80%;
+  }
+  /*new*/
+  .new h1 {
+    width: 100% !important;
+  }
+  .new p {
+    width: 100% !important;
+  }
+}
+@media (max-width:280px) {
+  .textFaq{
+    display: none;
+  }
+
+}
