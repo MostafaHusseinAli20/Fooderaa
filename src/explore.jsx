@@ -1,7 +1,7 @@
+import Rainboworder from './assets/orderRainbow.jpg'
+import Vegetarianorder from './assets/orderVegetarian.jpg'
+import Raspberryorder from './assets/orderRaspberry.jpg'
 function Explore() {
-  const oneImg = "http://demo.tutsflow.com/foodera/images/foods/01.jpg";
-  const twoImg = "http://demo.tutsflow.com/foodera/images/foods/02.jpg";
-  const threeImg = "http://demo.tutsflow.com/foodera/images/foods/03.jpg";
   return (
     <>
       <div className="explopre mt-5 pt-5 mb-5" id="Explore">
@@ -24,7 +24,7 @@ function Explore() {
           <div className="row">
             <div className="col-lg-4 col-md-12">
               <img
-                src={oneImg}
+                src={Rainboworder}
                 alt=""
                 style={{
                   width: "100%",
@@ -65,7 +65,7 @@ function Explore() {
             </div>
             <div className="col-lg-4 col-md-12">
               <img
-                src={twoImg}
+                src={Vegetarianorder}
                 alt=""
                 style={{
                   width: "100%",
@@ -106,7 +106,7 @@ function Explore() {
             </div>
             <div className="col-lg-4 col-md-12">
               <img
-                src={threeImg}
+                src={Raspberryorder}
                 alt=""
                 style={{
                   width: "100%",

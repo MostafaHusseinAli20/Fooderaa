@@ -5,9 +5,10 @@ import Explore from './explore';
 import Review from './components/review';
 import FAQ from './components/Faq';
 import Footer from './components/footer';
+// import imges
+import prideImg from './assets/pride/pride img.png'
+import newImg from './assets/new/new img.png'
 function App() {
-  const PridImg = "http://demo.tutsflow.com/foodera/images/features/1.png" 
-  const NewImg = "http://demo.tutsflow.com/foodera/images/features/2.png"
   return (
     <>
    <NavScrollExample></NavScrollExample>
@@ -39,7 +40,7 @@ function App() {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-6 col-sm-12">
-          <img src={PridImg} alt='' style={{
+          <img src={prideImg} alt='' style={{
             width: '100%',
             maxWidth: '100%',
             height: 'auto',
@@ -47,7 +48,7 @@ function App() {
           }}/>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
-          <h2 className='' > We pride ourselves on making real food from the best ingredients. </h2>
+          <h2> We pride ourselves on making real food from the best ingredients. </h2>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus. </p>
           <button type="button" className="prid-btn">Learn More</button>
         </div>
@@ -79,7 +80,7 @@ function App() {
           }}>Learn More</button>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
-          <img src={NewImg} alt="" style={{
+          <img src={newImg} alt="" style={{
             width : "100%"
           }} />
         </div>
@@ -91,7 +92,6 @@ function App() {
    <Review></Review>
    <FAQ></FAQ>
    <Footer></Footer>
-   
     </>
   );
 }

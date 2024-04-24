@@ -1,7 +1,6 @@
+import HomeBg from '../assets/homeBg.webp'
 function Home() {
-  const ImgUrl =
-    "https://womensfitness.co.uk/wp-content/uploads/sites/3/2022/11/Shutterstock_1675475479.jpg?resize=900,581";
-  return (
+    return (
     <>
       <div className="home" style={{
         marginTop : "5rem",
@@ -22,7 +21,7 @@ function Home() {
               </button>
             </div>
             <div className="imgStyle col-md-6 col-sm-12 mt-3">
-                <img src={ImgUrl} alt="" style={{
+                <img src={HomeBg} alt="" style={{
                     width: '100%',
                     maxWidth: '100%',
                     height: 'auto',
